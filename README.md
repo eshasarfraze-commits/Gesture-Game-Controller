@@ -34,10 +34,10 @@ pydirectinput (optional; install for better game input)
 pyautogui (fallback)
 
 ## Controls 
-Rotate Hand = steer
-Hand Height = speed
-Fist = brake
-Thumbs Up = boost (tap)
-Peace = handbrake
-OK sign = reset (tap)
-Keyboard adjustments at runtime: +/- sensitivity, d/D deadzone, t/T threshold, s save config, ESC exit
+- Rotate Hand = steer
+- Hand Height = speed
+- Fist = brake
+- Thumbs Up = boost (tap)
+- Peace = handbrake
+- OK sign = reset (tap)
+- Keyboard adjustments at runtime: +/- sensitivity, d/D deadzone, t/T threshold, s save config, ESC exit
