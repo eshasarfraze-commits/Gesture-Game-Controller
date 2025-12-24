@@ -22,34 +22,22 @@ The system leverages MediaPipe Hands for hand tracking and OpenCV for real-time 
 
 ## Installation
 
-Clone the repository:
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+requirements.txt includes:
 
-```bash
-git clone https://github.com/your-username/Gesture-Game-Controller.git
-cd Gesture-Game-Controller
-install required dependencies:
+opencv-python
+mediapipe
+numpy
+pydirectinput (optional; install for better game input)
+pyautogui (fallback)
 
-```bash
-pip install opencv-python mediapipe numpy pyautogui
-
-## Usage
-Ensure your webcam is connected.
-
-Run the controller:
-
-bash
-Copy code
-python Gesture-Game-Controller.py
-Launch your racing game and start controlling it using hand gestures.
-
-## Notes
-
-Run the script and game with appropriate permissions if inputs are not detected.
-
-Lighting conditions can affect hand tracking accuracy.
-
-This project is intended for experimental, educational, and demonstration purposes.
-
-License
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute this software with attribution.
+## Controls 
+Rotate Hand = steer
+Hand Height = speed
+Fist = brake
+Thumbs Up = boost (tap)
+Peace = handbrake
+OK sign = reset (tap)
+Keyboard adjustments at runtime: +/- sensitivity, d/D deadzone, t/T threshold, s save config, ESC exit
